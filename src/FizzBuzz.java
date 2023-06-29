@@ -11,11 +11,14 @@ public class FizzBuzz {
     }
 
     public static String run(int nombre) {
-        if (nombre % 3 == 0) {
+        /*if (nombre % 3 == 0) {
             return "Fizz";
         }
         if (nombre % 5 == 0) {
             return "Buzz";
+        }*/
+        if (nombre % 3 == 0 && nombre % 5 == 0) {
+            return "FizzBuzz";
         }
         return null;
     }
