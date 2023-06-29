@@ -14,6 +14,9 @@ public class FizzBuzz {
         if (nombre % 3 == 0) {
             return "Fizz";
         }
+        if (nombre % 5 == 0) {
+            return "Buzz";
+        }
         return null;
     }
 }
