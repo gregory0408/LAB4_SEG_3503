@@ -14,7 +14,7 @@ class FizzBuzzTest {
     }*/
    @Test
    public void testDivisibleBy3et5() {
-       assertEquals("Buzz",FizzBuzz.run(10));
+       assertEquals("FizzBuzz",FizzBuzz.run(15));
    }
 
 }
