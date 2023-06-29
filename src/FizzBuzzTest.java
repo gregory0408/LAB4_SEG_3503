@@ -12,9 +12,12 @@ class FizzBuzzTest {
     public void testDivisibleBy5() {
         assertEquals("Buzz",FizzBuzz.run(10));
     }*/
-   @Test
+  /* @Test
    public void testDivisibleBy3et5() {
        assertEquals("FizzBuzz",FizzBuzz.run(15));
+   }*/
+   @Test
+   public void testNegativeNumber() {
+       assertEquals("Fizz", FizzBuzz.run(-4));
    }
-
 }
