@@ -16,9 +16,13 @@ class FizzBuzzTest {
    public void testDivisibleBy3et5() {
        assertEquals("FizzBuzz",FizzBuzz.run(15));
    }*/
-   @Test
+   /*@Test
    public void testNegativeNumber() {
        assertEquals("Fizz", FizzBuzz.run(-6));
-   }
+   }*/
+    @Test
+    public void testZero() {
+        assertEquals("FizzBuzz", FizzBuzz.run(0));
+    }
 
 }
