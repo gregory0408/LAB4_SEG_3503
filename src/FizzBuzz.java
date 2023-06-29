@@ -11,7 +11,9 @@ public class FizzBuzz {
     }
 
     public static String run(int nombre) {
-
+        if (nombre % 3 == 0) {
+            return "Fizz";
+        }
         return null;
     }
 }
