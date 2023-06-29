@@ -18,6 +18,7 @@ class FizzBuzzTest {
    }*/
    @Test
    public void testNegativeNumber() {
-       assertEquals("Fizz", FizzBuzz.run(-4));
+       assertEquals("Fizz", FizzBuzz.run(-6));
    }
+
 }
