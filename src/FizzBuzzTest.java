@@ -10,6 +10,6 @@ class FizzBuzzTest {
     }*/
     @Test
     public void testDivisibleBy5() {
-        assertEquals("Buzz",FizzBuzz.run(11));
+        assertEquals("Buzz",FizzBuzz.run(10));
     }
 }
